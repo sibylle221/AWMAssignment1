@@ -2,6 +2,8 @@
 Advanced Web Mapping CA Assignment 1
 This README file is also in the INFO folder in the project.
 
+Site is meant to be at http://www.propelhealth.online/
+
 Had a few issues.
 
 Had an issue with the Django container running on digitalocean and fixed this with sudo apt install qemu-user-static.
