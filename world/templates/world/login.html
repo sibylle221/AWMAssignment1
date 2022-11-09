@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+    <div class="container-fluid mt-5">
+        <div class="container box-element">
+            <form method="POST" action="">
+                {% csrf_token %}
+{#                {{form|crispy}}#}
+
+                <div class="form-group col-md-6 mb-3">
+                    {{ form.username|as_crispy_field }}
+                </div>
+                <div class="form-group col-md-6 mb-0">
+                    {{ form.password|as_crispy_field }}
+                </div>
+                <button type="submit" class="btn btn-block mt-3" style="background-color: #E9CDD0">Login</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}

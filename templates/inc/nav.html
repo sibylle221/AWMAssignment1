@@ -1,0 +1,14 @@
+<nav class="navbar" style="background-color: #bca8af;">
+  <div class="container-fluid">
+    <a class="navbar-brand" style="color: black" href="{% url 'world' %}">AWM Assignment</a>
+    <form class="d-flex">
+        {% if user.is_authenticated %}
+{#            <a href="{% url 'logout' %}" class="btn btn-warning ml-4">Logout</a>#}
+            <a href="{% url 'logout' %}" class="btn ml-4" style="background-color: #E9CDD0">Logout</a>
+        {% else %}
+            <a href="{% url 'login' %}" class="btn" style="background-color: #E9CDD0">Login</a>
+            <a href="{% url 'register' %}" class="btn " style="background-color: #E9CDD0">Register</a>
+        {% endif %}
+    </form>
+  </div>
+</nav>
