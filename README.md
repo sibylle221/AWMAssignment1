@@ -1,8 +1,8 @@
-# AWMAssignment1
-Advanced Web Mapping CA Assignment 1
+# AWMAssignment2
+Advanced Web Mapping CA Assignment 2
 This README file is also in the INFO folder in the project.
 
-Site is meant to be at http://www.propelhealth.online/
+Site is at http://www.propelhealth.online/
 
 Had a few issues.
 
@@ -17,6 +17,6 @@ nginx, certbot, digitalocean and dockerhub all up and running.
 
 ssh keys working fine .
 
-Could not deploy due to an error, screenshot attached showing the issue.
+Project deployed and displays petrol stations in ireland, along with the street they're on and the city they're in.
 
-I also used the domain name propelhealth.online because since i was paying for the domain name, I was going to use it for my FYP :)
+I used the domain name propelhealth.online because since i was paying for the domain name, I was going to use it for my FYP :)
